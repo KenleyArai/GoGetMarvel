@@ -1,7 +1,8 @@
 import hashlib
 import requests
 from datetime import datetime
-from engine import Engine
+from gogetmarvel.engine import Engine
+
 
 VERSION = "v1"
 

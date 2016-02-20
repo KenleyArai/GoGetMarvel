@@ -24,7 +24,6 @@ class Engine(object):
             public_key: Public key provided by marvel
             private_key: Private key provided by marvel
         """
-
         self.public_key = public_key
         self.private_key = private_key
 
@@ -90,10 +89,7 @@ class Engine(object):
 
         ts = self.get_timestamp()
         hash = self.get_hashstring(ts)
-
-
         auth_string = self.get_auth(ts, hash)
-
 
         if id:
             url = "{}/{}".format(url, id) # Since id exists appending id
