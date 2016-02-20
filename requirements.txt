@@ -1,0 +1,5 @@
+colorama==0.3.6
+green==2.2.0
+profig==0.4.1
+python-termstyle==0.1.10
+requests==2.9.1
